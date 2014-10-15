@@ -554,3 +554,6 @@ img {
 .container-two-column img:nth-of-type(2n-1) {
 	margin-right:1rem;
 }
+body {
+	color:#333;
+}
