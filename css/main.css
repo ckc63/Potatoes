@@ -1,160 +1,74 @@
 /* Mission */
 
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_thin_italic-webfont.eot');
-    src: url('../fonts/mission_gothic_thin_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_thin_italic-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_thin_italic-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_thin_italic-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_thin_italic-webfont.svg#mission_gothicthin_italic') format('svg');
-    font-weight: 100;
-    font-style: italic;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_thin_italic-webfont.eot');
+	src: url('../fonts/mission_gothic_thin_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_thin_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_thin_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_thin_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_thin_italic-webfont.svg#mission_gothicthin_italic') format('svg');
+	font-weight: 100;
+	font-style: italic;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_black-webfont.eot');
-    src: url('../fonts/mission_gothic_black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_black-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_black-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_black-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_black-webfont.svg#mission_gothicblack') format('svg');
-    font-weight: 900;
-    font-style: normal;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_black-webfont.eot');
+	src: url('../fonts/mission_gothic_black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_black-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_black-webfont.woff') format('woff'), url('../fonts/mission_gothic_black-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_black-webfont.svg#mission_gothicblack') format('svg');
+	font-weight: 900;
+	font-style: normal;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_black_italic-webfont.eot');
-    src: url('../fonts/mission_gothic_black_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_black_italic-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_black_italic-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_black_italic-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_black_italic-webfont.svg#mission_gothicblack_italic') format('svg');
-    font-weight: 900;
-    font-style: italic;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_black_italic-webfont.eot');
+	src: url('../fonts/mission_gothic_black_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_black_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_black_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_black_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_black_italic-webfont.svg#mission_gothicblack_italic') format('svg');
+	font-weight: 900;
+	font-style: italic;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_light-webfont.eot');
-    src: url('../fonts/mission_gothic_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_light-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_light-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_light-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_light-webfont.svg#mission_gothiclight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_light-webfont.eot');
+	src: url('../fonts/mission_gothic_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_light-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_light-webfont.woff') format('woff'), url('../fonts/mission_gothic_light-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_light-webfont.svg#mission_gothiclight') format('svg');
+	font-weight: 200;
+	font-style: normal;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_bold_italic-webfont.eot');
-    src: url('../fonts/mission_gothic_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_bold_italic-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_bold_italic-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_bold_italic-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_bold_italic-webfont.svg#mission_gothicbold_italic') format('svg');
-    font-weight: 700;
-    font-style: italic;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_bold_italic-webfont.eot');
+	src: url('../fonts/mission_gothic_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_bold_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_bold_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_bold_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_bold_italic-webfont.svg#mission_gothicbold_italic') format('svg');
+	font-weight: 700;
+	font-style: italic;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_bold-webfont.eot');
-    src: url('../fonts/mission_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_bold-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_bold-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_bold-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_bold-webfont.svg#mission_gothicbold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_bold-webfont.eot');
+	src: url('../fonts/mission_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_bold-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_bold-webfont.woff') format('woff'), url('../fonts/mission_gothic_bold-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_bold-webfont.svg#mission_gothicbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_light_italic-webfont.eot');
-    src: url('../fonts/mission_gothic_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_light_italic-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_light_italic-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_light_italic-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_light_italic-webfont.svg#mission_gothiclight_italic') format('svg');
-    font-weight: 2200;
-    font-style: italic;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_light_italic-webfont.eot');
+	src: url('../fonts/mission_gothic_light_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_light_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_light_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_light_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_light_italic-webfont.svg#mission_gothiclight_italic') format('svg');
+	font-weight: 2200;
+	font-style: italic;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_thin-webfont.eot');
-    src: url('../fonts/mission_gothic_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_thin-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_thin-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_thin-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_thin-webfont.svg#mission_gothicthin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_thin-webfont.eot');
+	src: url('../fonts/mission_gothic_thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_thin-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_thin-webfont.woff') format('woff'), url('../fonts/mission_gothic_thin-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_thin-webfont.svg#mission_gothicthin') format('svg');
+	font-weight: 100;
+	font-style: normal;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_regular_italic-webfont.eot');
-    src: url('../fonts/mission_gothic_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_regular_italic-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_regular_italic-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_regular_italic-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_regular_italic-webfont.svg#mission_gothicregular_italic') format('svg');
-    font-weight: 400;
-    font-style: italic;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_regular_italic-webfont.eot');
+	src: url('../fonts/mission_gothic_regular_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_regular_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_regular_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_regular_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_regular_italic-webfont.svg#mission_gothicregular_italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
 }
-
-
-
-
 @font-face {
-    font-family: 'Mission Gothic';
-    src: url('../fonts/mission_gothic_regular-webfont.eot');
-    src: url('../fonts/mission_gothic_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/mission_gothic_regular-webfont.woff2') format('woff2'),
-         url('../fonts/mission_gothic_regular-webfont.woff') format('woff'),
-         url('../fonts/mission_gothic_regular-webfont.ttf') format('truetype'),
-         url('../fonts/mission_gothic_regular-webfont.svg#mission_gothicregular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-
+	font-family: 'Mission Gothic';
+	src: url('../fonts/mission_gothic_regular-webfont.eot');
+	src: url('../fonts/mission_gothic_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_regular-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_regular-webfont.woff') format('woff'), url('../fonts/mission_gothic_regular-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_regular-webfont.svg#mission_gothicregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
@@ -173,14 +87,12 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+	color: #222;
 }
-
 html {
-    font-size: 1em;
-    line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -188,28 +100,25 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
-
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -219,57 +128,37 @@ audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+	vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
-
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
 
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -280,44 +169,40 @@ textarea {
  */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	/* IE 6/7 fallback */
+	*text-indent: -9999px;
 }
-
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
 }
-
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+	display: none !important;
+	visibility: hidden;
 }
-
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
-
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
@@ -325,22 +210,20 @@ textarea {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
-
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
-
 /*
  * Clearfix: contain floats
  *
@@ -355,23 +238,22 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
 }
-
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
-
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
 
 .clearfix {
-    *zoom: 1;
+	*zoom: 1;
 }
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -379,181 +261,214 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+	/* Style adjustments for viewports that meet the condition */
 }
-
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+	/* Style adjustments for high resolution devices */
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
+	* {
+		background: transparent !important;
+		color: #000 !important;
+		/* Black prints faster: h5bp.com/s */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href)")";
+	}
+	abbr[title]:after {
+		content: " (" attr(title)")";
+	}
+	/*
      * Don't show links for images, or javascript/internal links
      */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content: "";
+	}
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead {
+		display: table-header-group;
+		/* h5bp.com/t */
+	}
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+	img {
+		max-width: 100% !important;
+	}
+	@page {
+		margin: 0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
 }
-
 section {
 	padding: 2rem;
 }
-section:nth-child(even){
+section:nth-child(even) {
 	background-color: #eee;
 }
-
 img {
-	max-width:100%;
+	max-width: 100%;
+}
+.intro h1 {
+	font-family: "freight-text-pro";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 4rem;
+	margin: 1rem 0;
+	line-height: 1em;
+	text-indent: -5px;
+	text-align:center;
 }
 
 section h1 {
-	font-family:"freight-text-pro";
+	font-family: "freight-text-pro";
 	font-weight: 400;
-	font-style:italic;
-	font-size: 3em;
+	font-style: italic;
+	font-size: 3rem;
 	margin: 1rem 0;
-	line-height:1em;
-	text-indent:-5px;
+	line-height: 1em;
+	text-indent: -5px;
+	text-align:center;
 }
-
+h2 {
+	font-family: "freight-text-pro";
+	font-style: italic;
+	font-weight:200;
+	font-size:2rem;
+	text-align:center;
+}
 p {
-	font-family:"freight-text-pro";
-	font-style:normal;
-	font-weight:400;
-	font-size:1.3rem;
-	max-width:55rem;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-img + p,
-p + img {
-	margin-top:4rem;
+	font-family: "freight-text-pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3rem;
+	max-width: 45rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
-	font-family:"freight-text-pro";
-	font-style:normal;
-	font-weight:300;
-	font-size:1rem;
+	font-family: "freight-text-pro";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1rem;
+	text-align:center;
+	overflow:hidden;
 }
-
 h5 {
-	font-family:"freight-sans-pro";
-	font-style:normal;
-	font-weight:300;
-	font-size:1rem;
-	margin:1rem 0;
-	text-transform:uppercase;
-	
+	font-family: "freight-sans-pro";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2rem;
+	margin: 1rem 0;
+	text-transform: uppercase;
+	text-align:center;
 }
-
-section {
-	
+h3 {
+	font-family: "freight-sans-pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	font-color:#333333;
 }
-
 .intro {
-	font-family:"freight-text-pro";
-	font-style:italic;
-	font-weight:200;
-	font-size:2rem;
-	margin-left:-5px;
+	font-family: "freight-text-pro";
+	font-style: italic;
+	font-weight: 200;
+	font-size: 2rem;
+	margin-left: -5px;
 }
-
-li {
+footer li {
+	display:inline;
+}
+.address {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 1rem;
+	font-weight: 400;
+	text-decoration: none;
+	color: #6b6d72;
+	letter-spacing: 0.03em;
+}
+img {
+	margin-bottom: 1em;
+	margin-top: 1em;
 	display: block;
 }
-
-.address {display: block;
-	margin-bottom:0.5rem;
-	font-size:0.89rem;
-	font-weight:400;
-	text-decoration:none;
-	color:#6b6d72;
-	letter-spacing:0.03em;
+img + footer{
+	margin-top:2.5rem;
 }
-
-img {
-	margin-bottom:1em;
-	margin-top:1em;
-	display:block;
+.container-two-column img {
+	width: calc(50% - 0.5rem);
+	float: left;
+	margin-top: 0;
 }
-
-.container-two-column img{
-	width:calc(50% - 0.5rem);
-	float:left;
-	margin-top:0;
-}
-
 .container-two-column img:nth-of-type(2n-1) {
-	margin-right:1rem;
+	margin-right: 1rem;
 }
 body {
-	color:#333;
+	color: #333;
+}
+ul {
+	padding: 0 0 0 0;
+}
+@media all and (min-width: 40em) {
+	section > img,
+	.container-two-column {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img + p,
+	p + img {
+		margin-top: 4rem;
+	}
+	.two-column-text {
+	float: left;
+	width:50%;
+}
+}
+.social-icon {
+	float:left;
+	width:50%;
+}
+.social-icon img{
+	margin-left:auto;
+	margin-right:auto;
+	width:10%;
+}
+
+section.social {
+	overflow:hidden;
 }
