@@ -450,10 +450,6 @@ ul {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	img + p,
-	p + img {
-		margin-top: 4rem;
-	}
 	.two-column-text {
 	float: left;
 	width:50%;
@@ -480,4 +476,10 @@ section.social {
 	font-size: 1rem;
 	text-align:center;
 	overflow:hidden;
+}
+
+.content-area {
+	margin: 4rem 0;
+	display: flex;
+	justify-content: center;
 }
