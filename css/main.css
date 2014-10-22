@@ -472,3 +472,12 @@ ul {
 section.social {
 	overflow:hidden;
 }
+
+.list {
+	font-family: "freight-text-pro";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1rem;
+	text-align:center;
+	overflow:hidden;
+}
