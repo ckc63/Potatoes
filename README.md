@@ -1,6 +1,6 @@
 # [A Guide to Ithaca Coffee Shops](http://html5boilerplate.com)
 
-This is a guide to the coffee shops in Ithaca, complete with words and images.
+This is a guide to the coffee shops in Ithaca, complete with words and images. 
 
 This project is fueled by caffeine, obviously.
 
