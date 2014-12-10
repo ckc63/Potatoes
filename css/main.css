@@ -517,7 +517,6 @@ section.article::after{
 	content: '';
 	position: relative;
 	display: block;
-	border-bottom: 1px solid black;
 	width: 100%;
 	max-width: 36rem;
 	margin-left: auto;
@@ -529,7 +528,6 @@ section.intro::after{
 	content: '';
 	position: relative;
 	display: block;
-	border-bottom: 1px solid black;
 	width: 100%;
 	max-width: 36rem;
 	margin-left: auto;
