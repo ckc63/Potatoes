@@ -338,7 +338,18 @@ img {
 	max-width: 100%;
 }
 .intro h1 {
-	font-family: "freight-text-pro";
+	font-family: "garamond-premier-pro-display";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 5rem;
+	margin: 1rem 0;
+	line-height: 1em;
+	text-indent: -5px;
+	text-align:center;
+}
+
+section h1 {
+	font-family: "garamond-premier-pro-display";
 	font-weight: 400;
 	font-style: italic;
 	font-size: 4rem;
@@ -347,19 +358,8 @@ img {
 	text-indent: -5px;
 	text-align:center;
 }
-
-section h1 {
-	font-family: "freight-text-pro";
-	font-weight: 400;
-	font-style: italic;
-	font-size: 3rem;
-	margin: 1rem 0;
-	line-height: 1em;
-	text-indent: -5px;
-	text-align:center;
-}
 h2 {
-	font-family: "freight-text-pro";
+	font-family: "garamond-premier-pro-display";
 	font-style: italic;
 	font-weight:200;
 	font-size:2rem;
@@ -468,7 +468,6 @@ section.social {
 	margin-left:auto;
 	margin-right:auto;
 	max-width:35rem;
-	display:flex;
 	justify-content:center;
 }
 
@@ -524,14 +523,38 @@ section.article::after{
 	bottom: -2rem;
 }
 
-section.intro::after{
-	content: '';
-	position: relative;
-	display: block;
-	width: 100%;
-	max-width: 36rem;
-	margin-left: auto;
-	margin-right: auto;
-	bottom: -2rem;
+section.intro{
+	display:flex;
+	padding:0;
+}
 
+.column.one{
+	flex:1;
+}
+.column.two{
+	width: 26rem;
+	padding: 2rem 2rem;
+	display:flex;
+	align-items:center;
+	display: flex;
+	background-color: rgb(159, 135, 99);
+	color: whitesmoke;
+}
+.intro img{
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+.epigraph{
+	font-family: "garamond-premier-pro-display";
+	font-style: italic;
+	font-weight:200;
+	font-size:3.5rem;
+	text-align:center;
+	max-width:40rem;
+	margin-left:auto;
+	margin-right:auto;
+	padding:4em 4em;
+}
+footer.site{
+	display:flex;
 }
