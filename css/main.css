@@ -92,6 +92,7 @@ textarea {
 html {
 	font-size: 1em;
 	line-height: 1.4;
+	text-rendering: optimizeLegibility;
 }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -435,17 +436,13 @@ body {
 ul {
 	padding: 0 0 0 0;
 }
-@media all and (min-width: 40em) {
-	section > img,
-	.container-two-column {
-		max-width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.two-column-text {
-	float: left;
-	width:50%;
+a{
+	color: rgb(159, 135, 99);
+	text-decoration: none;
 }
+a:hover,
+a:focus{
+	text-decoration: underline;
 }
 .social-icon {
 	float:left;
@@ -476,7 +473,6 @@ section.social {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1rem;
-	text-align:center;
 	overflow:hidden;
 }
 
@@ -557,4 +553,20 @@ section.intro{
 }
 footer.site{
 	display:flex;
+}
+
+@media all and (min-width: 40em) {
+	section > img,
+	.container-two-column {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.two-column-text {
+		float: left;
+		width:50%;
+	}
+	aside {
+		width: 10rem;
+	}
 }
