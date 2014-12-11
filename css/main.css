@@ -334,7 +334,6 @@ textarea {
 section {
 	padding: 2rem;
 }
-
 img {
 	max-width: 100%;
 }
@@ -346,9 +345,8 @@ img {
 	margin: 1rem 0;
 	line-height: 1em;
 	text-indent: -5px;
-	text-align:center;
+	text-align: center;
 }
-
 section h1 {
 	font-family: "garamond-premier-pro-display";
 	font-weight: 400;
@@ -357,14 +355,14 @@ section h1 {
 	margin: 1rem 0;
 	line-height: 1em;
 	text-indent: -5px;
-	text-align:center;
+	text-align: center;
 }
 h2 {
 	font-family: "garamond-premier-pro-display";
 	font-style: italic;
-	font-weight:200;
-	font-size:2rem;
-	text-align:center;
+	font-weight: 200;
+	font-size: 2rem;
+	text-align: center;
 }
 p {
 	font-family: "freight-text-pro";
@@ -375,14 +373,13 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 footer {
 	font-family: "freight-text-pro";
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1rem;
-	text-align:center;
-	overflow:hidden;
+	text-align: center;
+	overflow: hidden;
 }
 h5 {
 	font-family: "freight-sans-pro";
@@ -391,7 +388,7 @@ h5 {
 	font-size: 2rem;
 	margin: 1rem 0;
 	text-transform: uppercase;
-	text-align:center;
+	text-align: center;
 }
 h3 {
 	font-family: "freight-sans-pro";
@@ -399,11 +396,10 @@ h3 {
 	font-weight: 400;
 	font-size: 1.1rem;
 	text-transform: uppercase;
-	font-color:#333333;
+	font-color: #333333;
 }
-
 footer li {
-	display:inline;
+	display: inline;
 }
 .address {
 	display: block;
@@ -419,8 +415,8 @@ img {
 	margin-top: 1em;
 	display: block;
 }
-img + footer{
-	margin-top:2.5rem;
+img + footer {
+	margin-top: 2.5rem;
 }
 .container-two-column img {
 	width: calc(50% - 0.5rem);
@@ -436,79 +432,72 @@ body {
 ul {
 	padding: 0 0 0 0;
 }
-a{
+a {
 	color: rgb(159, 135, 99);
 	text-decoration: none;
 }
 a:hover,
-a:focus{
+a:focus {
 	text-decoration: underline;
 }
 .social-icon {
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
-	max-width:50%;
-	display:block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	display: block;
 	padding: 1rem 1rem;
 	margin: 1rem;
 }
-.social-icon img{
-	margin-left:auto;
-	margin-right:auto;
-	max-width:100%;
-	display:block;
+.social-icon img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	display: block;
 }
-
 section.social {
-	overflow:hidden;
-	margin-left:auto;
-	margin-right:auto;
-	max-width:35rem;
-	justify-content:center;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 35rem;
+	justify-content: center;
 }
-
 .list {
 	font-family: "freight-text-pro";
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1rem;
-	overflow:hidden;
+	overflow: hidden;
 }
-
 .content-area {
 	margin: 4rem 0;
 	display: flex;
 	justify-content: center;
-	max-width:60em;
-	margin-left:auto;
-	margin-right:auto;
+	max-width: 60em;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .paragraphs {
-	margin-right:3em;
+	margin-right: 3em;
 }
-
 .paragraphs:first-letter {
-	margin-right:0.5rem;
-	font-size:3em;
-	float:left;
-	line-height:.9em;
+	margin-right: 0.5rem;
+	font-size: 3em;
+	float: left;
+	line-height: .9em;
 }
-
-.bio-icon img{
-	border-radius:50%;
-	width:20%;
-	height:auto;
-	margin-left:auto;
-	margin-right:auto;
+.bio-icon img {
+	border-radius: 50%;
+	width: 20%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 section {
 	position: relative;
 	padding: 2rem;
 }
-section.article::after{
+section.article::after {
 	content: '';
 	position: relative;
 	display: block;
@@ -518,43 +507,40 @@ section.article::after{
 	margin-right: auto;
 	bottom: -2rem;
 }
-
-section.intro{
-	display:flex;
-	padding:0;
+section.intro {
+	display: flex;
+	padding: 0;
 }
-
-.column.one{
-	flex:1;
+.column.one {
+	flex: 1;
 }
-.column.two{
+.column.two {
 	width: 26rem;
 	padding: 2rem 2rem;
-	display:flex;
-	align-items:center;
+	display: flex;
+	align-items: center;
 	display: flex;
 	background-color: rgb(159, 135, 99);
 	color: whitesmoke;
 }
-.intro img{
+.intro img {
 	margin-bottom: 0em;
 	margin-top: 0em;
 }
-.epigraph{
+.epigraph {
 	font-family: "garamond-premier-pro-display";
 	font-style: italic;
-	font-weight:200;
-	font-size:3.5rem;
-	text-align:center;
-	max-width:40rem;
-	margin-left:auto;
-	margin-right:auto;
-	padding:4em 4em;
+	font-weight: 200;
+	font-size: 3.5rem;
+	text-align: center;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4em 4em;
 }
-footer.site{
-	display:flex;
+footer.site {
+	display: flex;
 }
-
 @media all and (min-width: 40em) {
 	section > img,
 	.container-two-column {
@@ -564,7 +550,7 @@ footer.site{
 	}
 	.two-column-text {
 		float: left;
-		width:50%;
+		width: 50%;
 	}
 	aside {
 		width: 10rem;
