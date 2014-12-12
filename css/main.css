@@ -263,6 +263,15 @@ textarea {
    Catherine styles.
    ========================================================================== */
 
+html{
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+	font-kerning: normal;
+}
+
 section {
 	padding: 2rem;
 }
@@ -510,6 +519,7 @@ footer.site{
 	}
 	.epigraph{
 		font-size:3.5rem;
+	padding: 10rem 2.5rem;
 	}
 
 }
