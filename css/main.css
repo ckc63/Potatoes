@@ -258,6 +258,11 @@ textarea {
 		page-break-after: avoid;
 	}
 }
+
+/* ==========================================================================
+   Catherine styles.
+   ========================================================================== */
+
 section {
 	padding: 2rem;
 }
@@ -269,7 +274,7 @@ img {
 	font-family: "garamond-premier-pro-display";
 	font-weight: 400;
 	font-style: italic;
-	font-size: 5rem;
+	font-size: 19vw;
 	margin: 1rem 0;
 	line-height: 1em;
 	text-indent: -5px;
@@ -363,18 +368,6 @@ body {
 ul {
 	padding: 0 0 0 0;
 }
-@media all and (min-width: 40em) {
-	section > img,
-	.container-two-column {
-		max-width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.two-column-text {
-	float: left;
-	width:50%;
-}
-}
 .social-icon {
 	float:left;
 	margin-left:auto;
@@ -452,37 +445,71 @@ section.article::after{
 }
 
 section.intro{
-	display:flex;
 	padding:0;
 }
-
 .column.one{
 	flex:1;
 }
 .column.two{
-	width: 26rem;
-	padding: 2rem 2rem;
-	display:flex;
+	position: relative;
+	padding: 6rem 3rem;
 	align-items:center;
-	display: flex;
-	background-color: rgb(159, 135, 99);
+	background-color: rgba(159, 135, 99, 0.8);
 	color: whitesmoke;
 }
 .intro img{
+	position: absolute;
 	margin-bottom: 0em;
 	margin-top: 0em;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .epigraph{
 	font-family: "garamond-premier-pro-display";
 	font-style: italic;
 	font-weight:200;
-	font-size:3.5rem;
+	font-size:2.8rem;
 	text-align:center;
 	max-width:40rem;
 	margin-left:auto;
 	margin-right:auto;
-	padding:2.5em 2.5em;
+	padding: 6rem 2.5rem;
 }
 footer.site{
 	display:flex;
+}
+@media all and (min-width: 26em) {
+	.intro h1 {
+		font-size: 5rem;
+		max-width: 26rem;
+		margin: auto;
+	}
+}
+@media all and (min-width: 60em) {
+	section > img,
+	.container-two-column {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.two-column-text {
+		float: left;
+		width:50%;
+	}
+	section.intro{
+		display:flex;
+	}
+	.intro img{
+		position: static;
+	}
+	.column.two{
+		background-color: rgba(159, 135, 99, 1);
+		display:flex;
+		padding: 2rem 2rem;
+	}
+	.epigraph{
+		font-size:3.5rem;
+	}
+
 }
