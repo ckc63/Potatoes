@@ -324,6 +324,7 @@ footer {
 	font-size: 1rem;
 	text-align:center;
 	overflow:hidden;
+	background-color:#fff;
 }
 h5 {
 	font-family: "proxima-nova-alt";
@@ -373,6 +374,7 @@ img + footer{
 }
 body {
 	color: #333;
+	background-color:#f6f6f6;
 }
 ul {
 	padding: 0 0 0 0;
@@ -397,7 +399,7 @@ section.social {
 	overflow:hidden;
 	margin-left:auto;
 	margin-right:auto;
-	max-width:35rem;
+	max-width:16rem;
 	justify-content:center;
 }
 
@@ -432,7 +434,7 @@ section.social {
 
 .bio-icon img{
 	border-radius:50%;
-	width:30%;
+	width:20%;
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -484,9 +486,10 @@ section.intro{
 	margin-left:auto;
 	margin-right:auto;
 	padding: 6rem 2.5rem;
+	background-color:#fff;
 }
 footer.site{
-	display:flex;
+	padding-top:2rem;
 }
 @media all and (min-width: 26em) {
 	.intro h1 {
@@ -521,5 +524,12 @@ footer.site{
 		font-size:3.5rem;
 	padding: 10rem 2.5rem;
 	}
+}
 
+.epigraph-wrapper {
+	background-color:#fff;
+}
+
+main {
+	padding-bottom:2rem;
 }
