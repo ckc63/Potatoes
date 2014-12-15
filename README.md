@@ -2,10 +2,9 @@
 
 This is a guide to the coffee shops in Ithaca, complete with words and images. 
 
-This project is fueled by caffeine, obviously.
+This project is fueled by caffeine.
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
+* Homepage: [http://coffee.catherinekchen.com](http://coffee.catherinekchen.com)
 * Twitter: [@ohhyesindeed](http://twitter.com/ohhyesindeed)
 
 ## Contact
