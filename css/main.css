@@ -350,7 +350,7 @@ footer li {
 }
 .address {
 	display: block;
-	margin-bottom: 2.5rem;
+	padding-bottom:1rem;
 	font-size: 1rem;
 	font-weight: 400;
 	text-decoration: none;
