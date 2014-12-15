@@ -1,75 +1,3 @@
-/* Mission */
-
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_thin_italic-webfont.eot');
-	src: url('../fonts/mission_gothic_thin_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_thin_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_thin_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_thin_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_thin_italic-webfont.svg#mission_gothicthin_italic') format('svg');
-	font-weight: 100;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_black-webfont.eot');
-	src: url('../fonts/mission_gothic_black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_black-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_black-webfont.woff') format('woff'), url('../fonts/mission_gothic_black-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_black-webfont.svg#mission_gothicblack') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_black_italic-webfont.eot');
-	src: url('../fonts/mission_gothic_black_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_black_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_black_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_black_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_black_italic-webfont.svg#mission_gothicblack_italic') format('svg');
-	font-weight: 900;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_light-webfont.eot');
-	src: url('../fonts/mission_gothic_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_light-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_light-webfont.woff') format('woff'), url('../fonts/mission_gothic_light-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_light-webfont.svg#mission_gothiclight') format('svg');
-	font-weight: 200;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_bold_italic-webfont.eot');
-	src: url('../fonts/mission_gothic_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_bold_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_bold_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_bold_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_bold_italic-webfont.svg#mission_gothicbold_italic') format('svg');
-	font-weight: 700;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_bold-webfont.eot');
-	src: url('../fonts/mission_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_bold-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_bold-webfont.woff') format('woff'), url('../fonts/mission_gothic_bold-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_bold-webfont.svg#mission_gothicbold') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_light_italic-webfont.eot');
-	src: url('../fonts/mission_gothic_light_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_light_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_light_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_light_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_light_italic-webfont.svg#mission_gothiclight_italic') format('svg');
-	font-weight: 2200;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_thin-webfont.eot');
-	src: url('../fonts/mission_gothic_thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_thin-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_thin-webfont.woff') format('woff'), url('../fonts/mission_gothic_thin-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_thin-webfont.svg#mission_gothicthin') format('svg');
-	font-weight: 100;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_regular_italic-webfont.eot');
-	src: url('../fonts/mission_gothic_regular_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_regular_italic-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_regular_italic-webfont.woff') format('woff'), url('../fonts/mission_gothic_regular_italic-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_regular_italic-webfont.svg#mission_gothicregular_italic') format('svg');
-	font-weight: 400;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Mission Gothic';
-	src: url('../fonts/mission_gothic_regular-webfont.eot');
-	src: url('../fonts/mission_gothic_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mission_gothic_regular-webfont.woff2') format('woff2'), url('../fonts/mission_gothic_regular-webfont.woff') format('woff'), url('../fonts/mission_gothic_regular-webfont.ttf') format('truetype'), url('../fonts/mission_gothic_regular-webfont.svg#mission_gothicregular') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -330,6 +258,20 @@ textarea {
 		page-break-after: avoid;
 	}
 }
+
+/* ==========================================================================
+   Catherine styles.
+   ========================================================================== */
+
+html{
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+	font-kerning: normal;
+}
+
 section {
 	padding: 2rem;
 }
@@ -338,10 +280,10 @@ img {
 	max-width: 100%;
 }
 .intro h1 {
-	font-family: "freight-text-pro";
+	font-family: "garamond-premier-pro-display";
 	font-weight: 400;
 	font-style: italic;
-	font-size: 4rem;
+	font-size: 19vw;
 	margin: 1rem 0;
 	line-height: 1em;
 	text-indent: -5px;
@@ -349,24 +291,24 @@ img {
 }
 
 section h1 {
-	font-family: "freight-text-pro";
+	font-family: "garamond-premier-pro-display";
 	font-weight: 400;
 	font-style: italic;
-	font-size: 3rem;
+	font-size: 4.3rem;
 	margin: 1rem 0;
 	line-height: 1em;
 	text-indent: -5px;
 	text-align:center;
 }
 h2 {
-	font-family: "freight-text-pro";
+	font-family: "garamond-premier-pro-display";
 	font-style: italic;
 	font-weight:200;
 	font-size:2rem;
 	text-align:center;
 }
 p {
-	font-family: "freight-text-pro";
+	font-family: "adobe-caslon-pro ";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.3rem;
@@ -382,9 +324,10 @@ footer {
 	font-size: 1rem;
 	text-align:center;
 	overflow:hidden;
+	background-color:#fff;
 }
 h5 {
-	font-family: "freight-sans-pro";
+	font-family: "proxima-nova-alt";
 	font-style: normal;
 	font-weight: 300;
 	font-size: 2rem;
@@ -393,12 +336,13 @@ h5 {
 	text-align:center;
 }
 h3 {
-	font-family: "freight-sans-pro";
+	font-family: "proxima-nova-alt";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.1rem;
 	text-transform: uppercase;
 	font-color:#333333;
+	text-align:center;
 }
 
 footer li {
@@ -406,7 +350,7 @@ footer li {
 }
 .address {
 	display: block;
-	margin-bottom: 0.5rem;
+	padding-bottom:1rem;
 	font-size: 1rem;
 	font-weight: 400;
 	text-decoration: none;
@@ -431,21 +375,10 @@ img + footer{
 }
 body {
 	color: #333;
+	background-color:#f6f6f6;
 }
 ul {
 	padding: 0 0 0 0;
-}
-@media all and (min-width: 40em) {
-	section > img,
-	.container-two-column {
-		max-width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.two-column-text {
-	float: left;
-	width:50%;
-}
 }
 .social-icon {
 	float:left;
@@ -467,8 +400,7 @@ section.social {
 	overflow:hidden;
 	margin-left:auto;
 	margin-right:auto;
-	max-width:35rem;
-	display:flex;
+	max-width:16rem;
 	justify-content:center;
 }
 
@@ -483,7 +415,6 @@ section.social {
 
 .content-area {
 	margin: 4rem 0;
-	display: flex;
 	justify-content: center;
 	max-width:60em;
 	margin-left:auto;
@@ -517,7 +448,6 @@ section.article::after{
 	content: '';
 	position: relative;
 	display: block;
-	border-bottom: 1px solid black;
 	width: 100%;
 	max-width: 36rem;
 	margin-left: auto;
@@ -525,15 +455,82 @@ section.article::after{
 	bottom: -2rem;
 }
 
-section.intro::after{
-	content: '';
+section.intro{
+	padding:0;
+}
+.column.one{
+	flex:1;
+}
+.column.two{
 	position: relative;
-	display: block;
-	border-bottom: 1px solid black;
+	padding: 6rem 3rem;
+	align-items:center;
+	background-color: rgba(159, 135, 99, 0.8);
+	color: whitesmoke;
+}
+.intro img{
+	position: absolute;
+	margin-bottom: 0em;
+	margin-top: 0em;
 	width: 100%;
-	max-width: 36rem;
-	margin-left: auto;
-	margin-right: auto;
-	bottom: -2rem;
+	height: 100%;
+	object-fit: cover;
+}
+.epigraph{
+	font-family: "garamond-premier-pro-display";
+	font-style: italic;
+	font-weight:200;
+	font-size:2.8rem;
+	text-align:center;
+	max-width:40rem;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 6rem 2.5rem;
+	background-color:#fff;
+}
+footer.site{
+	padding-top:2rem;
+}
+@media all and (min-width: 26em) {
+	.intro h1 {
+		font-size: 5rem;
+		max-width: 26rem;
+		margin: auto;
+	}
+}
+@media all and (min-width: 60em) {
+	section > img,
+	.container-two-column {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.two-column-text {
+		float: left;
+		width:50%;
+	}
+	section.intro{
+		display:flex;
+	}
+	.intro img{
+		position: static;
+	}
+	.column.two{
+		background-color: rgba(159, 135, 99, 1);
+		display:flex;
+		padding: 2rem 2rem;
+	}
+	.epigraph{
+		font-size:3.5rem;
+	padding: 10rem 2.5rem;
+	}
+	.content-area{
+		display: flex;
+}
+.epigraph-wrapper {
+	background-color:#fff;
+}
 
+main {
+	padding-bottom:2rem;
 }
